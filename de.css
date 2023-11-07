@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(215, 40%, 91%) ;
+}
+div.all{
+    display: flex;
+    border-radius: 12px;
+     background-color:  hsl(210, 46%, 95%)
+     ;
+    /*overflow:hidden;*/
+    width: 588px;
+    box-shadow: 11px 17px 14px  hsl(210deg 25.32% 82.27%);
+
+}
+img{
+    width: 200px;
+    border-radius: 12px 0px 0 12px;
+}
+div.pa{
+    border-radius: 0 13px 13px 0;
+    
+    font-family: 'Manrope', sans-serif;
+   ;
+    padding: 17px;
+
+}
+h1{
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: hsl(217, 19%, 35%);
+}
+p.tex{
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 13px;
+    color:  hsl(212, 23%, 69%);
+    ;
+    
+
+}
+span.p1{
+    font-weight: 700;
+    font-size: 14px;
+    color:  hsl(217, 19%, 35%);
+
+}
+span.p2{
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    color:  hsl(212, 23%, 69%);
+
+}
+img.i1{
+   
+    padding: 8.5px;
+   border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+.img22{
+    display: flex;
+
+}
+img.co {
+    padding: 4px;
+    width: 15px;
+    height: 15px;
+}
+img.co1{
+    padding: 4px;
+    width: 15px;
+    height: 15px;
+}
+img.co2{
+    padding: 4px;
+    width: 15px;
+    height: 15px;
+}
+.tick{
+    display: flex;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 87%;
+    left: 45.8%;
+    width: 10px;
+    height: 10px;
+    background-color:  hsl(217, 19%, 35%);
+}
+div.chart{
+    display: none;
+    position: absolute;
+    top: -3rem;
+    right: 50%;
+    transform: translate(50%);
+    padding: 0.5rem 1rem;
+    border-radius: 5.7px;
+    
+    background-color: hsl(217, 19%, 35%);
+}
+span.sha{
+    padding: 0 1.5px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color:  hsl(212, 23%, 69%);
+}
+img.shaer{
+    display: flex;
+    
+    width: 25px;
+    height: 25px;
+    background-color:  hsl(212, 23%, 69%);
+    border-radius: 100%;
+
+}
+
+div.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(240, 11%, 96%);
+}
+img{
+    width: 200;
+    height: 100%;
+}
+div.pos{
+    position: relative;
+}
+div.icon{
+    color:  hsl(213, 24%, 73%);
+   position: absolute;
+}
+.pos:hover .chart{
+    display: flex;
+}
